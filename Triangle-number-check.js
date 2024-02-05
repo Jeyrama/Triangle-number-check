@@ -23,3 +23,6 @@ Assumptions:
 Notes:
   0 and 1 are triangle numbers.
 */
+
+
+// Solution
