@@ -26,3 +26,15 @@ Notes:
 
 
 // Solution
+
+function isTriangleNumber(number) {
+  let sum = 0;
+  let step = 0;
+  while (sum < number) {
+    step++;
+    sum += step;
+  }
+  return sum === number;
+}
+
+// or
