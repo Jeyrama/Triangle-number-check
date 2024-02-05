@@ -38,3 +38,7 @@ function isTriangleNumber(number) {
 }
 
 // or
+
+function isTriangleNumber(number) {
+  return Math.sqrt(1+8*number)%1==0;
+}
