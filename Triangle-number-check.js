@@ -42,3 +42,8 @@ function isTriangleNumber(number) {
 function isTriangleNumber(number) {
   return Math.sqrt(1+8*number)%1==0;
 }
+
+// or
+
+const isTriangleNumber = n =>
+  Number.isInteger((8 * n + 1) ** .5);
